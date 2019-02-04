@@ -14,7 +14,7 @@ There is a single feature file with one scenario. The scenario has three steps, 
 Git:
 
     git clone https://github.com/sampathgelli/entitlement-Calc-Engine.git
-    cd pega-ece-starter
+    cd entitlement-Calc-Engine
 
 
 ## Use Maven
