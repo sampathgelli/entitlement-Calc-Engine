@@ -41,7 +41,8 @@ dependencies {
             libs.test.serenity.gradle,
             libs.test.serenity.cucumber,
             libs.test.junit,
-            libs.test.assertj
+            libs.test.assertj,
+            libs.test.junitDataPro
 }
 
 test {

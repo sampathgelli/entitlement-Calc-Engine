@@ -7,7 +7,8 @@ ext{
     logbackVersion='1.2.3'
     gsonVersion='2.8.5'
 	opencsvVersion='2.4'
-	jsonVersion='20180130'
+	jsonVersion='20180813'
+	junitDataProviderVersion='1.13.1'
 
     libs = [
             slf4jApi: "org.slf4j:slf4j-api:$slf4jVersion",
@@ -26,8 +27,10 @@ ext{
                             rest: "net.serenity-bdd:serenity-rest-assured:${serenityCoreVersion}",
                             screenplayRest: "net.serenity-bdd:serenity-screenplay-rest:${serenityCoreVersion}",
                             cucumber: "net.serenity-bdd:serenity-cucumber:${serenityCucumberVersion}",
+                            
                     ],
                     junit: "junit:junit:${junitVersion}",
+                    junitDataPro: "com.tngtech.java:junit-dataprovider:${junitDataProviderVersion}",
                     assertj: "org.assertj:assertj-core:${assertJVersion}"
             ]
     ]
